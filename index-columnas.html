@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link a archivos CSS de Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Curso Bootstrap Navis Code</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque dignissimos reprehenderit suscipit amet eius, adipisci iste tempora veniam veritatis at nihil dolorem eveniet eum assumenda, est dolore a laborum obcaecati.</p>
+    </div>
+    <div class="container-fluid">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos inventore minima dicta placeat veritatis illum rerum. Harum, nemo? In adipisci amet illo officia, inventore laboriosam earum nemo odit iure eaque.</p>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <!-- Bootstrap tiene un total de 12 espacios de columnas, en este caso comprendidos entre los dos div
+                 Si se deja más espacio que este aparece en la parte de abajo -->
+            <div class="col-8">
+                <h2>principal</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt libero dolore voluptates est iusto, temporibus reiciendis reprehenderit omnis veritatis. Pariatur molestias quam molestiae ab ea inventore debitis voluptatem. Ab, nemo?</p>
+            </div>
+            <div class="col-4">
+                <h2>sliderbar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa ab eligendi blanditiis rerum, quos repellendus tempore incidunt labore. Necessitatibus quis deserunt ratione! Sed labore molestiae maiores sapiente id animi.</p>
+            </div>
+        </div>
+    </div>
+    <!-- Lo anterior pero de forma responsive, que se ajusta al dispositivo -->
+    <div class="container">
+        <div class="row">
+            <!-- Bootstrap tiene un total de 12 espacios de columnas, en este caso comprendidos entre los dos div
+                 Si se deja más espacio que este aparece en la parte de abajo -->
+            <div class="col-lg-8">
+                <h2>principal</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt libero dolore voluptates est iusto, temporibus reiciendis reprehenderit omnis veritatis. Pariatur molestias quam molestiae ab ea inventore debitis voluptatem. Ab, nemo?</p>
+            </div>
+            <div class="col-lg-4">
+                <h2>sliderbar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi culpa ab eligendi blanditiis rerum, quos repellendus tempore incidunt labore. Necessitatibus quis deserunt ratione! Sed labore molestiae maiores sapiente id animi.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!--break point de Bootstrap-->
+    <div class="container">
+        <h4>XS</h4>
+        <p>
+            Extra small devices(portrait phones, less than 576px) <br/> No media query for `xs` since this is the default in Bootstrap
+        </p>
+        <h4>SM</h4>
+        <p>
+            Small devices(landscape phoflex-item76px and up) <br/> @media (min-width: 576px) { ... }
+        </p>
+        <h4>MD</h4>
+        <p>
+            Medium devices(tablets, 768 px and up) <br/> @media (min-width: 768px) { ... }
+        </p>
+        <h4>LG</h4>
+        <p>
+            Large devices(desktops, 992px and up) <br/> @media (min-width: 992px) { ... }
+        </p>
+        <h4>XL</h4>
+        <p>
+            Extra Large devices(large desktops, 1200px and up) <br/> @media (min-width: 1200px) { ... }
+        </p>
+    </div>
+    <hr>
+    <!--Footer de 3 columnas con espacios de 4-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+            <div class="col-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Para dispositivos con Large Devices -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+            <div class="col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+            <div class="col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Personalizar según el dispositivo en este caso se concatenan -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+            <div class="col-md-8 col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+            <div class="col-md-2 col-lg-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum repudiandae voluptatem delectus eveniet? Doloribus, fugiat esse? Amet, quia. Nobis architecto molestias deserunt debitis rem aliquid aliquam blanditiis labore et?</p>
+            </div>
+        </div>
+    </div>
+    <div class="margen">
+
+    </div>
+
+    <!--Link a arcvhivos JS de Jquery, Popper y Bootstrap-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
